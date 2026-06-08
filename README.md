@@ -54,6 +54,8 @@
 
 SteerViT equips pretrained Vision Transformers with **steerable global and local visual representations**. Given an image and a natural-language prompt, the model conditions the visual encoder itself through lightweight gated cross-attention, producing prompt-aware patch features, global embeddings, and heatmaps while retaining the strengths of the pretrained ViT backbone.
 
+> 🔔 Model checkpoints, inference code, and the CORE evaluation script are available already. Full training code will be released soon.
+
 ## ✈️ Overview
 
 SteerViT turns any pretrained ViT into a **query-aware visual encoder** by injecting text directly into the visual backbone rather than only fusing text after image encoding. This makes it possible to steer:
@@ -223,6 +225,8 @@ For an interactive walkthrough, use one of the following:
 
 - [Colab](https://colab.research.google.com/drive/1Lf-95znqXaWUGyY9bPeJQI9Eq7yBcpFl?usp=sharing)
 - [Local notebook](demo.ipynb)
+
+The current release focuses on inference, qualitative exploration, and CORE evaluation. Training code and additional evaluation pipelines will be added in a future code release.
 
 ## 🧪 CORE Evaluation
 
