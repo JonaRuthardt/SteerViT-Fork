@@ -173,10 +173,10 @@ The current release focuses on inference and qualitative exploration. Training a
 If you use SteerViT in your research, please cite:
 
 ```bibtex
-@misc{ruthardt2026steervit,
-      title={Steerable Visual Representations}, 
-      author={Jona Ruthardt and Manu Gaur and Deva Ramanan and Makarand Tapaswi and Yuki M. Asano},
-      journal={arXiv:2604.02327},
-      year={2026}
+@inproceedings{ruthardt2026steervit,
+  title     = {Steerable Visual Representations},
+  author    = {Ruthardt, Jona and Gaur, Manu and Ramanan, Deva and Tapaswi, Makarand and Asano, Yuki M.},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year      = {2026}
 }
 ```
